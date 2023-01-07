@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(./assets/HelveticaNeueCyr-Roman.otf);
+}
+
+@font-face {
+  font-family: 'Helvetica Neue-bold';
+  src: url(./assets/HelveticaNeueCyr-Bold.otf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+th {
+  font-family: 'Helvetica Neue-bold';
+  font-size: 14px;
+  text-align: start;
+  line-height: 20px;
+  color: #337AB7;
+  border: 1px solid black;
+  padding: 9px 5px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 1140px;
+  align-items: center;
+}
+
+tr {
+  border: 1px solid black;
+
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px 8px;
+  font-family: 'Helvetica Neue';
+}
+
+.input__id {
+  width: 34px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.input__username {
+  width: 164px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.input__email {
+  width: 231px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.input__enroll {
+  width: 98px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.input__time {
+  width: 119px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.input__login {
+  width: 107px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.input__confirm {
+  width: 88px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.input__select {
+  width: 88px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.confirmation {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #3C763D;
+}
+
+.add {
+  background: #D9534F;
+  border: 1px solid #D9534F;
+  border-radius: 4px;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 5px 25px;
+}
+
+.status {
+  text-align: center;
+  font-size: 12px;
+}
+
+button {
+  background: #D9534F;
+  border: 1px solid #D9534F;
+  border-radius: 4px;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 5px 25px;
+}
+
+.icons {
+  align-items: center;
+  padding-bottom: 5px;
+  display: flex;
+  grid-gap: 5px;
+}
+
+.lastlogin {
+  font-size: 14px;
+}
+
+.regtime {
+  font-size: 14px;
+}
